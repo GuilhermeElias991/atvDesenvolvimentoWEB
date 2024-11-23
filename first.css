@@ -1,0 +1,118 @@
+/* Estilização geral */
+body {
+    background: linear-gradient(to bottom, #633b3b, #4c8686);
+    color: #fff;
+    margin: 10;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container principal */
+  .container {
+    background-color: rgba(77, 31, 31, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    max-width:800px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .form h3 {
+    margin-bottom: 15px;
+  }
+  
+  .form-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 70%;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  button {
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: white;
+  }
+  
+  /* Dados climáticos */
+  #weather-data {
+    margin-top: 20px;
+  }
+  
+  #weather-data h2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #weather-icon {
+    width: 40px;
+    height: 40px;
+
+  }
+  #weather-data img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #temperature {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  
+  /* Mensagem de erro */
+  #error-message {
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #error-message p {
+    margin: 0;
+    color: #f11010;
+  }
+  
+  /* Loader */
+  #loader {
+    margin-top: 20px;
+  }
+  
+  /* Classes ocultas */
+  .hide {
+    display: none;
+  }
+  
